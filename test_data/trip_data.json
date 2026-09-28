@@ -1,0 +1,24 @@
+[
+  {
+    "test_id": "TC-TRIP-001",
+    "device_id": "J1024410159",
+    "number_of_completed_trips": "1",
+    "number_of_inprogress_trips": "0",
+    "number_of_unidentified_trips": "1"
+    
+  },
+  {
+    "test_id": "TC-TRIP-002",
+    "device_id": "J1025200186",
+    "number_of_completed_trips": "0",
+    "number_of_inprogress_trips": "0",
+    "number_of_unidentified_trips": "0"
+  },
+  {
+    "test_id": "TC-TRIP-003",
+    "device_id": "D112345",
+    "number_of_completed_trips": "0",
+    "number_of_inprogress_trips": "0",
+    "number_of_unidentified_trips": "0"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "email": "nafiz.al.asad+699@gmail.com",
+    "password": "Testpass1,",
+    "expected_user": "nafiz-f01",
+    "message": "Welcome To Rooya's Fleet Portal!",
+    "should_succeed": true,
+    "test_id": "TC-LGN-001"
+  },
+  {
+    "email": "invalid@example.com",
+    "password": "wrongpassword",
+    "expected_user": null,
+    "message": "Invalid email or password",
+    "should_succeed": false,
+    "test_id": "TC-LGN-002"
+  },{
+    "email": "nafiz.al.asad+699@gmail.com",
+    "password": "wrongpassword",
+    "expected_user": null,
+    "message": "Invalid email or password",
+    "should_succeed": false,
+    "test_id": "TC-LGN-003"
+  },{
+    "email": "invalid@example.com",
+    "password": "Testpass1,",
+    "expected_user": null,
+    "message": "Invalid email or password",
+    "should_succeed": false,
+    "test_id": "TC-LGN-004"
+  },
+  {
+    "email": "",
+    "password": "password",
+    "expected_user": null,
+    "message": "This field is required",
+    "should_succeed": false,
+    "test_id": "TC-LGN-005"
+  },
+  {
+    "email": "user@example.com",
+    "password": "",
+    "expected_user": null,
+    "message": "This field is required",
+    "should_succeed": false,
+    "test_id": "TC-LGN-006"
+  },
+  {
+    "email": "",
+    "password": "",
+    "expected_user": null,
+    "message": "This field is required",
+    "should_succeed": false,
+    "test_id": "TC-LGN-007"
+  }
+]
